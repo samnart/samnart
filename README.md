@@ -1,4 +1,4 @@
-### Hi there, I am Samuel 👋
+### Hi there, I am Sam Nart 👋
 
 <!--
 **samnart/samnart** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
