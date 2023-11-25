@@ -103,3 +103,66 @@ body {
     gap: 24px;
 }
 
+.guarantee .item {
+    background: #292b2e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.guarantee .item:hover {
+    border-color: #ffb742;
+}
+
+.guarantee .item .icon {
+    width: 46px;
+    height: 46px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.guarantee .item:hover .icon {
+    background-color: #ffb742;
+}
+
+.guarantee .item .icon i {
+    font-size: 30px;
+}
+
+.guarantee .item .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guarantee .item .info h3 {
+    color: #ffb742;
+    font-size: 28px;
+}
+
+.guarantee .item .info p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.guarantee .item > i {
+    color: #fff;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.guarantee .item:hover > i {
+    color: #ffb742;
+}
