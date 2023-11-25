@@ -48,3 +48,17 @@ body {
 .navbar ul li:last-child a {
     margin: 0;
 }
+
+.hire-btn {
+    background: #ffb742;
+    padding: 6px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.hire-btn:hover {
+    background: #fb8c00;
+}
