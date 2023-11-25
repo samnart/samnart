@@ -62,3 +62,35 @@ body {
 .hire-btn:hover {
     background: #fb8c00;
 }
+
+.main {
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main h4 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.main h4 span {
+    color: #ffb742;
+    text-decoration: underline;
+}
+
+.main p.title {
+    font-size: 44px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.main p.subtitle {
+    font-size: 16px;
+    color: #ccc;
+    margin-top: 20px;
+}
