@@ -94,3 +94,12 @@ body {
     color: #ccc;
     margin-top: 20px;
 }
+
+.guarantee {
+    margin-top: 50px;
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+
