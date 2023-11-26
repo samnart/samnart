@@ -101,6 +101,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
     gap: 24px;
+    margin-bottom: 200px;
 }
 
 .guarantee .item {
@@ -165,4 +166,90 @@ body {
 
 .guarantee .item:hover > i {
     color: #ffb742;
+}
+
+.separator {
+    margin: 50px 50px 30px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.08);
+    display: inline;
+    color: #ffb742;
+    border-radius: 12px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 80px; */
+    padding: 0 50px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.about .info h3 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about .info p {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.about .info button {
+    margin-top: 30px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+    margin-top: 200px;
+}
+
+.skills .left {
+    width: 680px;
+}
+
+.skills .left .info h3 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.skills .left .info p {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.skills .left button {
+    margin-top: 30px;
+}
+
+.skills .right {
+    width: 420px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills .right .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #383e45;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.skills .right .item i {
+    font-size: 34px;
+    color: #fff;
 }
