@@ -185,6 +185,7 @@ body {
     padding: 0 50px;
     width: 60%;
     margin: 0 auto;
+    margin-bottom: 200px;
 }
 
 .about .info h3 {
@@ -207,7 +208,10 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 0 50px;
-    margin-top: 200px;
+    /* margin-top: 200px; */
+    margin-bottom: 300px;
+    width: 60%;
+    margin: 0 auto;
 }
 
 .skills .left {
@@ -252,4 +256,128 @@ body {
 .skills .right .item i {
     font-size: 34px;
     color: #fff;
+}
+
+footer {
+    position: relative;
+    background: #1c1c1c;
+    padding: 80px 50px 40px;
+    margin-top: 200px;
+}
+
+footer .start {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    background-color: #ffb742;
+    padding: 30px 25px;
+    border-radius: 15px;
+    width: 70%;
+    top: -16%;
+    left: 15%;
+}
+
+footer .start p {
+    font-size: 13px;
+    width: 35%;
+}
+
+footer .start button {
+    background: transparent;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+
+footer .start button:hover {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+footer .cols {
+    display: flex;
+    align-items: start;
+}
+
+footer .cols .about-col {
+    flex: 3;
+}
+
+footer .cols .about-col h3 {
+    color: #ffb742;
+    margin-bottom: 20px;
+}
+
+footer .cols .about-col p {
+    color: #ccc;
+    font-size: 13px;
+}
+
+footer .cols .links-col {
+    flex: 3;
+}
+
+footer .cols .links-col h4, footer .cols .news-col h4 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer .cols .links-col a {
+    display: block;
+    text-decoration: none;
+    color: #7b7b7b;
+    font-size: 14px;
+    line-height: 26px;
+    transition: color 0.3s ease;
+}
+
+footer .cols .links-col a:hover {
+    color: #ffb742;
+}
+
+footer .cols .news-col {
+    flex: 3;
+}
+
+footer .cols .news-col p {
+    color: #7b7b7b;
+    font-size: 15px;
+}
+
+footer .cols .news-col form {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+footer .cols .news-col form input {
+    width: 100%;
+    background: #212529;
+    border: none;
+    padding: 13px;
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+footer .cols .news-col form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: #ffb742;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: background-color 0.3s ease;
+}
+
+footer .cols .news-col form button:hover {
+    background-color: #fb8c00;
 }
