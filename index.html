@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vCard - Personal Portfolio</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" defer></script>
+
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    
+    <!-- main -->
+
+    <main>
+
+        <!-- sidebar -->
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <figure class="avatar-box">
+                    <img id="bitmoji" src="" alt="Samuel Tettey-Nartey" width="80" style="color: aliceblue;">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Tettey-Nartey Samuel">Tettey-Nartey Samuel</h1>
+
+                    <p class="title">Software Engineer</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:stetteynartey@unibz.it" class="contact-link">stetteynartey@unibz.it</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+393513833633" class="contact-link">(+39) 351 383 3633</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="1998-11-18">November 18, 1998</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Bolzano, Italy</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </aside>
+    </main>
+
+
+    <script>
+        var bitmojiStickers = ['./assets/images/welcome/w1.png', './assets/images/welcome/w2.png', './assets/images/welcome/w3.png', './assets/images/welcome/w4.png', './assets/images/welcome/w5.png', './assets/images/welcome/w6.png', './assets/images/welcome/w7.png', './assets/images/welcome/w8.png', './assets/images/welcome/w9.png', './assets/images/welcome/w10.png', './assets/images/welcome/w11.png', './assets/images/welcome/w12.png', './assets/images/welcome/w13.png'];
+
+        function selectRandomBitmoji() {
+            var randomIndex = Math.floor(Math.random() * bitmojiStickers.length);
+            document.getElementById('bitmoji').src = bitmojiStickers[randomIndex];
+        }
+
+        selectRandomBitmoji();
+    </script>
+</body>
+</html>
