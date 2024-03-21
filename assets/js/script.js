@@ -49,3 +49,45 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 // addd click event to modal close button
 modalCloseBtn.addEventListener("click", testimonialsModalFunc);
 overlay.addEventListener("click", testimonialsModalFunc);
+
+
+
+// custom select variables
+const select = document.querySelector("[data-select]");
+const selectItems = document.querySelectorAll("[data-select-item]");
+const selectValue = document.querySelector("[data-select-value]");
+
+select.addEventListener("click", function() { elementToggleFunc(this); });
+
+// add event in all select items
+for (let i = 0; i < selectItems.length; i++) {
+    selectItems[i].addEventListener("click", function() {
+
+        let selectedValue = this.innerHTML.toLowerCase();
+        selectValue.innerHTML = this.innerHTML;
+        elementToggleFunc(select);
+        filterFunc(selectedValue);
+
+    })
+}
+
+// filter variables
+const filterItems = document.querySelectorAll("[data-filter-item]");
+
+const filterFunc = function(selectedValue) {
+
+
+
+    for (let i = 0; i < filterItems.length; i++) {
+
+        // let category = filterItems[i].getAttribute('data-category').toLowerCase();
+
+        if (selectedValue === "all") {
+            filterItems[i].classList.add("active");
+        } else if (selectedValue === filterItems[i].dataset.category) {
+            filterItems[i].classList.add("active");
+        } else {
+            filterItems[i].classList.remove("active");
+        }
+    }
+}
