@@ -1283,4 +1283,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     }
 
     .service-content-box { text-align: left; }
+
+    /* testimonialsl */
+
+    .testimonials-title { margin-bottom: 25px; }
+
+    .testimonials-list
 }
