@@ -340,7 +340,7 @@ main {
     border-radius: inherit;
     background: var(--bg-gradient-jet);
     transform: var(--transition-1);
-    z-index: 1;
+    z-index: -1;
 }
 
 .info_more-btn:hover,
