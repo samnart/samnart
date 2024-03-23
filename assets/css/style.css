@@ -1260,4 +1260,27 @@ textarea.form-input::-webkit-resizer { display: none; }
     .navbar-list { gap: 20px; }
 
     .navbar-link { --fs-8: 14px; }
+
+    /* ABOUT */
+
+    .about .article-title { margin-bottom: 20px; }
+
+    .about-text { margin-bottom: 40px; }
+
+    /* SERVICE */
+
+    .service-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 18px;
+        padding: 30px;
+    }
+
+    .service-icon-box {
+        margin-bottom: 0;
+        margin-top: 5px;
+    }
+
+    .service-content-box { text-align: left; }
 }
