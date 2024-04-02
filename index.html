@@ -1,282 +1,279 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sam Nart - Personal Portfolio</title>
 
-    <link rel="shortcut icon" type="image/x-icon" href="top .ico">
+    <link rel="shortcut icon" type="image/x-icon" href="top .ico" />
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    />
 
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" defer></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      defer
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      defer
+    ></script>
 
     <script src="assets/js/script.js" defer></script>
-</head>
-<body>
-
-
-
-    
-    
+  </head>
+  <body>
     <!-- main -->
 
     <main>
+      <!-- sidebar -->
 
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              id="bitmoji"
+              src=""
+              alt="Samuel Tettey-Nartey"
+              width="80"
+              style="color: aliceblue"
+            />
+          </figure>
 
+          <div class="info-content">
+            <h1 class="name" title="Tettey-Nartey Samuel">Sam Nart</h1>
 
+            <p class="title">Ms Software Engineering</p>
+          </div>
 
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
 
-        <!-- sidebar -->
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
 
-        <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-            <div class="sidebar-info">
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
 
-                <figure class="avatar-box">
-                    <img id="bitmoji" src="" alt="Samuel Tettey-Nartey" width="80" style="color: aliceblue;">
-                </figure>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-                <div class="info-content">
-                    <h1 class="name" title="Tettey-Nartey Samuel">Sam Nart</h1>
+                <a href="mailto:stetteynartey@unibz.it" class="contact-link"
+                  >stetteynartey@unibz.it</a
+                >
+              </div>
+            </li>
 
-                    <p class="title">Ms Software Engineering</p>
-                </div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
 
-                <button class="info_more-btn" data-sidebar-btn>
-                    <span>Show Contacts</span>
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
 
-                    <ion-icon name="chevron-down"></ion-icon>
-                </button>
-            </div>
+                <a href="tel:+393513833633" class="contact-link"
+                  >(+39) 351 383 3633</a
+                >
+              </div>
+            </li>
 
-            <div class="sidebar-info_more">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="school"></ion-icon>
+              </div>
 
-                <div class="separator"></div>
+              <div class="contact-info">
+                <p class="contact-title">School</p>
 
-                <ul class="contacts-list">
+                <a
+                  href="https://www.unibz.it/en/faculties/engineering/master-software-engineering/"
+                  class="contact-link"
+                  >University of Bolzano</a
+                >
+              </div>
+            </li>
 
-                    <li class="contact-item">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
 
-                        <div class="icon-box">
-                            <ion-icon name="mail-outline"></ion-icon>
-                        </div>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
 
-                        <div class="contact-info">
-                            <p class="contact-title">Email</p>
+                <address>Bolzano, Italy</address>
+              </div>
+            </li>
+          </ul>
 
-                            <a href="mailto:stetteynartey@unibz.it" class="contact-link">stetteynartey@unibz.it</a>
-                        </div>
-                    </li>
+          <div class="separator"></div>
 
-                    <li class="contact-item">
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/samnart/" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
 
-                        <div class="icon-box">
-                            <ion-icon name="phone-portrait-outline"></ion-icon>
-                        </div>
+            <li class="social-item">
+              <a href="https://twitter.com/tettey1234567" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
 
-                        <div class="contact-info">
-                            <p class="contact-title">Phone</p>
-
-                            <a href="tel:+393513833633" class="contact-link">(+39) 351 383 3633</a>
-                        </div>
-                    </li>
-
-                    <li class="contact-item">
-
-                        <div class="icon-box">
-                            <ion-icon name="school"></ion-icon>
-                        </div>
-
-                        <div class="contact-info">
-                            <p class="contact-title">School</p>
-
-                            <a href="https://www.unibz.it/en/faculties/engineering/master-software-engineering/" class="contact-link">University of Bolzano</a>
-                        </div>
-                    </li>
-
-                    <li class="contact-item">
-
-                        <div class="icon-box">
-                            <ion-icon name="location-outline"></ion-icon>
-                        </div>
-
-                        <div class="contact-info">
-                            <p class="contact-title">Location</p>
-
-                            <address>Bolzano, Italy</address>
-                        </div>
-                    </li>
-                </ul>
-
-                <div class="separator"></div>
-
-                <ul class="social-list">
-
-                    <li class="social-item">
-                        <a href="https://github.com/samnart/" class="social-link">
-                            <ion-icon name="logo-github"></ion-icon>
-                        </a>
-                    </li>
-
-                    <li class="social-item">
-                        <a href="https://twitter.com/tettey1234567" class="social-link">
-                            <ion-icon name="logo-twitter"></ion-icon>
-                        </a>
-                    </li>
-
-                    <!-- <li class="social-item">
+            <!-- <li class="social-item">
                         <a href="#" class="social-link">
                             <ion-icon name="logo-youtube"></ion-icon>
                         </a>
                     </li> -->
-                </ul>
+          </ul>
+        </div>
+      </aside>
 
-            </div>
+      <!-- main-content -->
 
-        </aside>
+      <div class="main-content">
+        <!-- NAVBAR -->
 
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
 
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
 
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
 
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
 
-        <!-- main-content -->
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
 
-        <div class="main-content">
+        <!-- ABOUT -->
 
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
 
+          <section class="about-text">
+            <p>
+              Highly motivated and adaptable Software Engineering student with a
+              passion for problem-solving and innovation. Eager to leverage
+              theoritical knowledge gained in school to contribute effectively
+              to dynamic teams and real-world projects.
+            </p>
 
+            <p>
+              Possess a solid foundation in programming languages, algorithms,
+              and software methodologies, coupled with a relentless drive for
+              continuous learning and growth.
+            </p>
+          </section>
 
+          <!-- SECTION -->
 
-            <!-- NAVBAR -->
+          <section class="service">
+            <h3 class="h3 service-title">What I'm doing</h3>
 
-            <nav class="navbar">
-
-                <ul class="navbar-list">
-
-                    <li class="navbar-item">
-                        <button class="navbar-link active" data-nav-link>About</button>
-                    </li>
-
-                    <li class="navbar-item">
-                        <button class="navbar-link " data-nav-link>Resume</button>
-                    </li>
-
-                    <li class="navbar-item">
-                        <button class="navbar-link " data-nav-link>Portfolio</button>
-                    </li>
-
-                    <li class="navbar-item">
-                        <button class="navbar-link " data-nav-link>Blog</button>
-                    </li>
-
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Contact</button>
-                    </li>
-                </ul>
-            </nav>
-
-
-
-
-
-            <!-- ABOUT -->
-
-            <article class="about active" data-page="about">
-
-                <header>
-                    <h2 class="h2 article-title">About me</h2>
-                </header>
-
-                <section class="about-text">
-                    <p>
-                        Highly motivated and adaptable Software Engineering student with a passion for problem-solving and innovation. Eager to leverage theoritical knowledge gained in school to contribute effectively to dynamic teams and real-world projects.
-                    </p>
-
-                    <p>
-                        Possess a solid foundation in programming languages, algorithms, and software methodologies, coupled with a relentless drive for continuous learning and growth.
-                    </p>
-                </section>
-
-                <!-- SECTION -->
-
-                <section class="service">
-                    <h3 class="h3 service-title">What I'm doing</h3>
-
-                    <ul class="service-list">
-
-                        <li class="service-item">
-
-                            <!-- <div class="service-icon-box">
+            <ul class="service-list">
+              <li class="service-item">
+                <!-- <div class="service-icon-box">
                                 <img src="" alt="" width="40">
                             </div> -->
 
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Software Development</h4>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Software Development</h4>
 
-                                <p class="service-item-text">
-                                    Innovatively Creating, Designing, and Maintaining High-Quality Software Solutions: A Journey of Continuous Improvement and User-Centric Design.
-                                </p>
-                            </div>
-                        </li>
+                  <p class="service-item-text">
+                    Innovatively Creating, Designing, and Maintaining
+                    High-Quality Software Solutions: A Journey of Continuous
+                    Improvement and User-Centric Design.
+                  </p>
+                </div>
+              </li>
 
-                        <li class="service-item">
-
-                            <!-- <div class="service-icon-box">
+              <li class="service-item">
+                <!-- <div class="service-icon-box">
                                 <img src="" alt="" width="40">
                             </div> -->
 
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Database Management</h4>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Database Management</h4>
 
-                                <p class="service-item-text">
-                                    Ensuring Data Integrity, Security and Efficient Accessibility Through Queries and Techniques.
-                                </p>
-                            </div>
-                        </li>
+                  <p class="service-item-text">
+                    Ensuring Data Integrity, Security and Efficient
+                    Accessibility Through Queries and Techniques.
+                  </p>
+                </div>
+              </li>
 
-                        <li class="service-item">
-
-                            <!-- <div class="service-icon-box">
+              <li class="service-item">
+                <!-- <div class="service-icon-box">
                                 <img src="" alt="" width="40">
                             </div> -->
 
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Version Control & Collaboration</h4>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Version Control & Collaboration
+                  </h4>
 
-                                <p class="service-item-text">
-                                    Streamlining Development Processes with Git and GitHub for Efficient Code Management and Teamwork.
-                                </p>
-                            </div>
-                        </li>
+                  <p class="service-item-text">
+                    Streamlining Development Processes with Git and GitHub for
+                    Efficient Code Management and Teamwork.
+                  </p>
+                </div>
+              </li>
 
-                        <li class="service-item">
-
-                            <!-- <div class="service-icon-box">
+              <li class="service-item">
+                <!-- <div class="service-icon-box">
                                 <img src="" alt="" width="40">
                             </div> -->
 
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Agile Methodologies & DevOps</h4>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Agile Methodologies & DevOps
+                  </h4>
 
-                                <p class="service-item-text">
-                                    Enhancing Software Development with Iterative Planning, Collaboration, and Automation for Rapid and Efficient Delivery.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </section>
+                  <p class="service-item-text">
+                    Enhancing Software Development with Iterative Planning,
+                    Collaboration, and Automation for Rapid and Efficient
+                    Delivery.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
 
-                <!-- TESTIMONIALS -->
+          <!-- TESTIMONIALS -->
 
-                <!-- <section class="testimonials">
+          <!-- <section class="testimonials">
 
                     <h3 class="h3 testimonials-title">Testimonials</h3>
 
@@ -352,180 +349,180 @@
                     </ul>
                 </section> -->
 
-                <!-- TESTIMONIALS MODAL -->
+          <!-- TESTIMONIALS MODAL -->
 
-                <div class="modal-container" data-modal-container>
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
 
-                    <div class="overlay" data-overlay></div>
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
 
-                    <section class="testimonials-modal">
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/welcome/w3.png"
+                    alt="Bismark Addo"
+                    width="88"
+                    data-modal-img
+                  />
+                </figure>
 
-                        <button class="modal-close-btn" data-modal-close-btn>
-                            <ion-icon name="close-outline"></ion-icon>
-                        </button>
+                <img src="" alt="quote icon" />
+              </div>
 
-                        <div class="modal-img-wrapper">
-                            <figure class="modal-avatar-box">
-                                <img src="./assets/images/welcome/w3.png" alt="Bismark Addo" width="88" data-modal-img>
-                            </figure>
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Bismark Addo</h4>
 
-                            <img src="" alt="quote icon">
-                        </div>
+                <time datatime="2022-08-21">21 August, 2022</time>
 
-                        <div class="modal-content">
-
-                            <h4 class="h3 modal-title" data-modal-title>Bismark Addo</h4>
-
-                            <time datatime="2022-08-21">21 August, 2022</time>
-
-                            <div data-modal-text>
-                                <p>
-                                    Samuel was hired to create a corporate identity. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of clients. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem fugiat esse nihil ex, odio quis?
-                                </p>
-                            </div>
-                        </div>
-
-                    </section>
-
+                <div data-modal-text>
+                  <p>
+                    Samuel was hired to create a corporate identity. We were
+                    very pleased with the work done. He has a lot of experience
+                    and is very concerned about the needs of clients. Lorem
+                    ipsum dolor sit amet consectetur, adipisicing elit.
+                    Exercitationem fugiat esse nihil ex, odio quis?
+                  </p>
                 </div>
+              </div>
+            </section>
+          </div>
 
-                <!-- CLIENTS -->
+          <!-- CLIENTS -->
 
-                <section class="clients">
+          <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
 
-                    <h3 class="h3 clients-title">Clients</h3>
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logos/Space logo.png"
+                    alt="Space Global"
+                  />
+                </a>
+              </li>
 
-                    <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logos/Frames Daily.png"
+                    alt="Space Global"
+                  />
+                </a>
+              </li>
 
-                        <li class="clients-item">
+              <!-- <li class="clients-item">
                             <a href="#">
                                 <img src="./assets/images/logos/Space logo.png" alt="Space Global">
                             </a>
-                        </li>
-
-                        <li class="clients-item">
-                            <a href="#">
-                                <img src="./assets/images/logos/Frames Daily.png" alt="Space Global">
-                            </a>
-                        </li>
-
-                        <!-- <li class="clients-item">
-                            <a href="#">
-                                <img src="./assets/images/logos/Space logo.png" alt="Space Global">
-                            </a>
                         </li> -->
 
-                        <!-- <li class="clients-item">
+              <!-- <li class="clients-item">
                             <a href="#">
                                 <img src="./assets/images/welcome/w13.png" alt="Space Global">
                             </a>
                         </li> -->
 
-                        <!-- <li class="clients-item">
+              <!-- <li class="clients-item">
                             <a href="#">
                                 <img src="./assets/images/welcome/w13.png" alt="Space Global">
                             </a>
                         </li> -->
 
-                        <!-- <li class="clients-item">
+              <!-- <li class="clients-item">
                             <a href="#">
                                 <img src="./assets/images/welcome/w13.png" alt="Space Global">
                             </a>
                         </li> -->
+            </ul>
+          </section>
+        </article>
 
-                    </ul>
+        <!-- RESUME -->
 
-                </section>
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
 
-            </article>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
+              <h3 class="h3">Education</h3>
+            </div>
 
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  University of Bolzano, Italy
+                </h4>
 
+                <span>2023 - Present</span>
 
+                <p class="timeline-text">
+                  Currently pursuing a Master's Degree in Software Engineering
+                  at the Free University of Bolzano.
+                </p>
+              </li>
 
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Southwest Petroleum University, China
+                </h4>
 
-            <!-- RESUME -->
+                <span>2018 - 2022</span>
 
-            <article class="resume " data-page="resume">
+                <p class="timeline-text">
+                  Gained a Bachelor's Degree in Computer Science at the
+                  Southwest Petroleum University from 2018 to 2022.
+                </p>
+              </li>
 
-                <header>
-                    <h2 class="h2 article-title">Resume</h2>
-                </header>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Achimota Senior High School, Ghana
+                </h4>
 
-                <section class="timeline">
+                <span>2015 - 2018</span>
 
-                    <div class="title-wrapper">
+                <p class="timeline-text">
+                  Gained my High School Diploma at the Achimota Senior High
+                  School in General Science from 2015 to 2018.
+                </p>
+              </li>
+            </ol>
+          </section>
 
-                        <div class="icon-box">
-                            <ion-icon name="book-outline"></ion-icon>
-                        </div>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="briefcase"></ion-icon>
+              </div>
 
-                        <h3 class="h3">Education</h3>
-                    </div>
+              <h3 class="h3">Experience</h3>
+            </div>
 
-                    <ol class="timeline-list">
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  IT Technician Intern - Ghana Armed Forces, Accra
+                </h4>
 
-                        <li class="timeline-item">
+                <span>2022 - 2023</span>
 
-                            <h4 class="h4 timeline-item-title">University of Bolzano, Italy</h4>
+                <p class="timeline-text">
+                  Did a national service internship program at the Ghana Armed
+                  Forces.
+                </p>
+              </li>
 
-                            <span>2023 - Present</span>
-
-                            <p class="timeline-text">
-                                Currently pursuing a Master's Degree in Software Engineering at the Free University of Bolzano.
-                            </p>
-                        </li>
-
-                        <li class="timeline-item">
-
-                            <h4 class="h4 timeline-item-title">Southwest Petroleum University, China</h4>
-
-                            <span>2018 - 2022</span>
-
-                            <p class="timeline-text">
-                                Gained a Bachelor's Degree in Computer Science at the Southwest Petroleum University from 2018 to 2022.
-                            </p>
-                        </li>
-
-                        <li class="timeline-item">
-
-                            <h4 class="h4 timeline-item-title">Achimota Senior High School, Ghana</h4>
-
-                            <span>2015 - 2018</span>
-
-                            <p class="timeline-text">
-                                Gained my High School Diploma at the Achimota Senior High School in General Science from 2015 to 2018.
-                            </p>
-                        </li>
-                    </ol>
-
-                </section>
-
-                <section class="timeline">
-
-                    <div class="title-wrapper">
-
-                        <div class="icon-box">
-                            <ion-icon name="briefcase"></ion-icon>
-                        </div>
-
-                        <h3 class="h3">Experience</h3>
-                    </div>
-
-                    <ol class="timeline-list">
-
-                        <li class="timeline-item">
-
-                            <h4 class="h4 timeline-item-title">IT Technician Intern - Ghana Armed Forces, Accra</h4>
-
-                            <span>2022 - 2023</span>
-
-                            <p class="timeline-text">
-                                Did a national service internship program at the Ghana Armed Forces.
-                            </p>
-                        </li>
-
-                        <!-- <li class="timeline-item">
+              <!-- <li class="timeline-item">
 
                             <h4 class="h4 timeline-item-title">Web Developer</h4>
 
@@ -536,7 +533,7 @@
                             </p>
                         </li> -->
 
-                        <!-- <li class="timeline-item">
+              <!-- <li class="timeline-item">
 
                             <h4 class="h4 timeline-item-title">Web Designer</h4>
 
@@ -546,144 +543,117 @@
                                 No where cool bro. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit soluta temporibus cumque deserunt, ipsam cupiditate.
                             </p>
                         </li> -->
-                    </ol>
+            </ol>
+          </section>
 
-                </section>
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
 
-                <section class="skill">
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Software Development</h5>
+                  <!-- <data value="80">80%</data> -->
+                </div>
 
-                    <h3 class="h3 skills-title">My skills</h3>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
 
-                    <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Database Management</h5>
+                  <!-- <data value="80">80%</data> -->
+                </div>
 
-                        <li class="skills-item">
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
 
-                            <div class="title-wrapper">
-                                <h5 class="h5">Software Development</h5>
-                                <!-- <data value="80">80%</data> -->
-                            </div>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Version Control & Collaboration</h5>
+                  <!-- <data value="80">80%</data> -->
+                </div>
 
-                            <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 80%;"></div>
-                            </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
 
-                        </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Agile Methodologies & DevOps</h5>
+                  <!-- <data value="80">80%</data> -->
+                </div>
 
-                        <li class="skills-item">
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
 
-                            <div class="title-wrapper">
-                                <h5 class="h5">Database Management</h5>
-                                <!-- <data value="80">80%</data> -->
-                            </div>
+        <!-- PORTFOLIO -->
 
-                            <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 80%;"></div>
-                            </div>
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
 
-                        </li>
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
 
-                        <li class="skills-item">
-
-                            <div class="title-wrapper">
-                                <h5 class="h5">Version Control & Collaboration</h5>
-                                <!-- <data value="80">80%</data> -->
-                            </div>
-
-                            <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 80%;"></div>
-                            </div>
-
-                        </li>
-
-                        <li class="skills-item">
-
-                            <div class="title-wrapper">
-                                <h5 class="h5">Agile Methodologies & DevOps</h5>
-                                <!-- <data value="80">80%</data> -->
-                            </div>
-
-                            <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 80%;"></div>
-                            </div>
-
-                        </li>
-
-                    </ul>
-
-                </section>
-
-            </article>
-
-
-
-
-
-
-            <!-- PORTFOLIO -->
-
-            <article class="portfolio " data-page="portfolio">
-
-                <header>
-                    <h2 class="h2 article-title">Portfolio</h2>
-                </header>
-
-                <section class="projects">
-
-                    <ul class="filter-list">
-
-                        <li class="filter-item">
-                            <button class="active" data-filter-btn>All</button>
-                        </li>
-
-                        <!-- <li class="filter-item">
+              <!-- <li class="filter-item">
                             <button data-filter-btn>Web Design</button>
                         </li> -->
 
-                        <!-- <li class="filter-item">
+              <!-- <li class="filter-item">
                             <button data-filter-btn>Applications</button>
                         </li> -->
 
-                        <!-- <li class="filter-item">
+              <!-- <li class="filter-item">
                             <button  data-filter-btn>Web Development</button>
                         </li> -->
+            </ul>
 
-                    </ul>
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-select-value>
+                  Select category
+                </div>
 
-                    <div class="filter-select-box">
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
 
-                        <button class="filter-select " data-select>
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
 
-                            <div class="select-value" data-select-value>Select category</div>
-
-                            <div class="select-icon">
-                                <ion-icon name="chevron-down"></ion-icon>
-                            </div>
-
-                        </button>
-
-                        <ul class="select-list">
-
-                            <li class="select-item">
-                                <button data-select-item>All</button>
-                            </li>
-
-                            <!-- <li class="select-item">
+                <!-- <li class="select-item">
                                 <button data-select-item>Web Design</button>
                             </li> -->
 
-                            <!-- <li class="select-item">
+                <!-- <li class="select-item">
                                 <button data-select-item>Applications</button>
                             </li> -->
 
-                            <!-- <li class="select-item">
+                <!-- <li class="select-item">
                                 <button data-select-item>Web development</button>
                             </li> -->
+              </ul>
+            </div>
 
-                        </ul>
-
-                    </div>
-
-                    <!-- <ul class="project-list">
+            <!-- <ul class="project-list">
 
                         <li class="project-item active" data-filter-item data-category="web development">
                             <a href="#">
@@ -838,23 +808,17 @@
                             </a>
                         </li>
                     </ul> -->
+          </section>
+        </article>
 
-                </section>
+        <!-- BLOG -->
 
-            </article>
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
 
-
-
-
-            <!-- BLOG -->
-
-            <article class="blog " data-page="blog">
-
-                <header>
-                    <h2 class="h2 article-title">Blog</h2>
-                </header>
-
-                <!-- <section class="blog-posts">
+          <!-- <section class="blog-posts">
 
                     <ul class="blog-posts-list">
 
@@ -1064,70 +1028,91 @@
                     </ul>
                 
                 </section> -->
+        </article>
 
-            </article>
+        <!-- CONTACT -->
 
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
 
-            <!-- CONTACT -->
+          <section class="mapbox" data-mapbox>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2746.570099813934!2d11.348055476787792!3d46.49682436395071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47829e79324d25a3%3A0xfee962118557a6df!2sVia%20Giosu%C3%A8%20Carducci%2C%2039100%20Bolzano%20BZ!5e0!3m2!1sen!2sit!4v1711199462089!5m2!1sen!2sit"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen
+            >
+            </iframe>
+          </section>
 
-            <article class="contact " data-page="contact">
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
 
-                <header>
-                    <h2 class="h2 article-title">Contact</h2>
-                </header>
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
 
-                <section class="mapbox" data-mapbox>
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email"
+                  required
+                  data-form-input
+                />
+              </div>
 
-                
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2746.570099813934!2d11.348055476787792!3d46.49682436395071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47829e79324d25a3%3A0xfee962118557a6df!2sVia%20Giosu%C3%A8%20Carducci%2C%2039100%20Bolzano%20BZ!5e0!3m2!1sen!2sit!4v1711199462089!5m2!1sen!2sit" width="400" height="300" style="border:0;" allowfullscreen>
-                    </iframe>
-
-                </section>
-
-                <section class="contact-form">
-
-                    <h3 class="h3 form-title">Contact Form</h3>
-
-                    <form action="#" class="form" data-form>
-
-                        <div class="input-wrapper">
-                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-                            <input type="email" name="email" class="form-input" placeholder="Email" required data-form-input>
-                            
-                        </div>
-
-                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-                            <button class="form-btn" type="submit" disabled data-form-btn>
-                                <ion-icon name="paper-plane"></ion-icon>
-                                <span>Send Message</span>
-                            </button>
-
-                    </form>
-
-                </section>
-
-            </article>
-
-
-
-
-        </div>
-
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
     </main>
 
-
     <script>
-        var bitmojiStickers = ['./assets/images/welcome/w1.png', './assets/images/welcome/w2.png', './assets/images/welcome/w3.png', './assets/images/welcome/w4.png', './assets/images/welcome/w5.png', './assets/images/welcome/w6.png', './assets/images/welcome/w7.png', './assets/images/welcome/w8.png', './assets/images/welcome/w9.png', './assets/images/welcome/w10.png', './assets/images/welcome/w11.png', './assets/images/welcome/w12.png', './assets/images/welcome/w13.png'];
+      var bitmojiStickers = [
+        "./assets/images/welcome/w1.png",
+        "./assets/images/welcome/w2.png",
+        "./assets/images/welcome/w3.png",
+        "./assets/images/welcome/w4.png",
+        "./assets/images/welcome/w5.png",
+        "./assets/images/welcome/w6.png",
+        "./assets/images/welcome/w7.png",
+        "./assets/images/welcome/w8.png",
+        "./assets/images/welcome/w9.png",
+        "./assets/images/welcome/w10.png",
+        "./assets/images/welcome/w11.png",
+        "./assets/images/welcome/w12.png",
+        "./assets/images/welcome/w13.png",
+      ];
 
-        function selectRandomBitmoji() {
-            var randomIndex = Math.floor(Math.random() * bitmojiStickers.length);
-            document.getElementById('bitmoji').src = bitmojiStickers[randomIndex];
-        }
+      function selectRandomBitmoji() {
+        var randomIndex = Math.floor(Math.random() * bitmojiStickers.length);
+        document.getElementById("bitmoji").src = bitmojiStickers[randomIndex];
+      }
 
-        selectRandomBitmoji();
+      selectRandomBitmoji();
     </script>
-</body>
+  </body>
 </html>
