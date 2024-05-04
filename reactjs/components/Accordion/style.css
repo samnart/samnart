@@ -1,0 +1,49 @@
+:root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.accordion {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  background-color: antiquewhite;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  height: 80vh;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  color: black;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+  /* transition: 3.8s ease-in-out; */
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.item {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 40vw;
+}
+
+.item span {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* .item1 {
+    font-size: 24px;
+} */
